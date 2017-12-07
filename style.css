@@ -22,6 +22,7 @@
 header {
   background-color: #ADEAEA;
   background-image: url(images/banner.jpg);
+  background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
   background-position: center;
@@ -79,6 +80,23 @@ footer a {
 }
 footer h2 {
   font-size: 160%;
+}
+ul li{
+  padding:0.5%;
+}
+p {
+  padding-bottom: 1%;
+}
+
+p span{
+  font-weight: bold;
+}
+.padded-top{
+  padding-top: 0.9%;
+  font-style: italic;
+}
+.make-italic {
+  font-style: italic;
 }
 
 
