@@ -1,0 +1,97 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility classes */
+
+.padding-top {
+    padding-top: 9%;
+}
+
+.padding-bottom {
+  padding-bottom: 10%;
+
+}
+
+
+/* Backgrounds & Container Elements */
+
+header {
+  background-color: #ADEAEA;
+  background-image: url(images/banner.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+}
+footer {
+  background-color: #ADEAEA;
+}
+
+header, footer, section {
+  padding: 2% 5%;
+}
+
+
+/* Lines */
+
+hr {
+  width: 60px;
+  border: 1px solid #C1CDCD;
+  margin: 0 0 20px 0;
+}
+
+
+/* Typography */
+
+h1, h2, h3 {
+  font-family: 'Spectral SC', serif;
+
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  color: #ADEAEA;
+  font-size: 160%;
+}
+
+a {
+  color: #ADEAEA;
+  text-decoration: none;
+  border-bottom: 2px solid #ADEAEA;
+}
+
+footer {
+  text-align:center;
+  color: white;
+}
+footer hr {
+  margin: 1px auto 20px;
+  width: 95px;
+}
+footer a {
+  color: #C1CDCD;
+  font-weight: bold;
+}
+footer h2 {
+  font-size: 160%;
+}
+
+
+/* Header Styles */
+
+header h1, header h2 {
+  color: white;
+  text-align: center;
+}
+header {
+  padding: 40vh 5%;
+}
+h1 {
+  font-size: 8vw;
+  padding-bottom: 10vh 5%;
+}
